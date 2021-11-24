@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Gold Miner</title>
+  </head>
+  <body>
+    <div class="game-info">
+      <p id="gold-mined">0 Gold Mined</p>
+	    <p id="gps">1 Gold per click</p>
+	    <p id="gpc">0 Gold per second</p>
+    </div>
+    
+    <div class="upgrades">
+      <button class="button" id="button-mine" onclick="mineGold()">Mine Gold</button><br>
+      <button class="button" onclick="buyItem(PickAxe)" id="pick-axe">Buy Pickaxe Cost: 10 Gold [+1 gps, +1 gpc]</button><br>
+<!---	    <button class="button" onclick="buyItem(MineShaft)" id="MineShaftUpgrade">Buy MineShaft Cost: 100 gold [+5 gps, +2 gpc]</button><br> ---->
+    </div>
+    
+<!--    <div class="reset-progress">
+	    <button class="button" onclick="resetProgress()" id="reset-progress">Reset progress?</button>
+    </div> -->
+    <script src='script.js' charset="utf-8" type="text/javascript"></script>
+  </body>
+</html>
